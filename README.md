@@ -9,7 +9,7 @@
     docker run -it --rm -v $(pwd):/work -p 8080:8080 go_env /bin/bash
 
 ### run server
-    go ./src/app.go
+    go run ./src/app.go
 
 ### access
 http://localhost:8080  
